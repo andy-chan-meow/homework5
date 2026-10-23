@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int N;
-    double sum = 0.0;
+    double sum = 0.0; //инициализируем со значением 0,0 чтобы избежать неявного приведения к int 
     while(scanf("%d",&N) == 1){
         if (N <= 0){
             break;
